@@ -10,10 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineFoodOrderMobileApp">
         <activity
+            android:name=".orderConfirmed"
+            android:parentActivityName=".CheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".CheckOut"
+            android:parentActivityName=".placeOrder"
+            android:exported="false" />
+        <activity
             android:name=".placeOrder"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Menu"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

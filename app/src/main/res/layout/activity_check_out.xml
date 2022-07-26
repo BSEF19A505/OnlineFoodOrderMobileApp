@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidUnresolvableTag -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckOut">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="383dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:width="170dp"
+            android:height="10dp"
+            android:hint="Enter Name"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:width="170dp"
+            android:height="10dp"
+            android:hint="Enter Phone Number"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:width="170dp"
+            android:height="10dp"
+            android:hint="Enter Email Address"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:width="170dp"
+            android:height="10dp"
+            android:hint="Enter Address"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:width="170dp"
+            android:height="10dp"
+            android:hint="Enter Payment Method i.e.COD,Easypaisa"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:onClick="OrderConfirmed"
+        android:text="Confirm Order"
+        android:textColor="#D5CDCD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
